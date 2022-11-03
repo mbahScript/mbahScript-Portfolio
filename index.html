@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/Logo-MS.svg">
+    <link rel="stylesheet" href="style.css">
+    <script src="myScript.js"></script>
+</head>
+<body>
+    <div id="general_cnt">
+    <div id="mySidenav" class="sidenav">
+        <img id="close_icon" onclick="closeSidenav()" src="img/cancel.svg" alt="Cancel Icon" width="25px">
+        <a href="#works">Work</a>
+        <a href="#skills">Skills</a>
+        <a href="#about">About</a>
+        <a class="sidenav_cnt" href="#reach_me">Contact</a>
+    </div>
+        <div class="nav">
+            <a class="logo" href="index.html"><img src="img/Logo-MS.svg" alt="Logo" width="50px"></a>
+            <ul class="nav_links_cnt">
+                <a class="nav_links" href="#works">Work</a>
+                <a class="nav_links" href="#skills">Skills</a>
+                <a class="nav_links" href="#about">About</a>
+            </ul>
+            <img id="menu_icon" onclick="openSidenav()" src="img/menu_page_icon.svg" alt="Menu Icon" width="25px">
+            <div class="contact_btn"><a href="#reach_me">Contact</a></div>
+        </div>
+        <div class="profile">
+            <div class="web_view_msg">
+                    <h4 class="self_name">MBAH SAMSON IFEANYI</h4>
+                    <h2 class="">WEB DEVELOPER</h2>
+                    <p class="">A passionate Frontend Web Developer who pays great attention to details.
+                    I'm a fast learner and i can quickly adapt to new technology with ease. 
+                    </p>
+                    <button class="resume">
+                        <a href="resume/Mbah Samson .pdf" download>Resume</a>
+                    </button>
+            </div>
+         <div class="self_img_cont">
+            <img class="self_img" src="img/Samson.jpg" alt="My_Picture">
+         </div>
+         <div class="exposure">
+            <h3 class="exp_hd">2+</h3>
+            <p class="exp_p">Experience &#127775</p>
+            <br>
+            <h3 class="exp_hd">10+</h3>
+            <p class="exp_p">Project Completed &#128522</p>
+        </div>
+        <div class="styled_circle">
+            <img src="img/styled_circles.svg" alt="" width="50px">
+        </div>
+        </div>
+        <div class="brief_msg">
+            <p>Hi, my name is</p>
+            <h3 class="brief_msg_hd">MBAH SAMSON IFEANYI</h3>
+            <p class="brief_msg_p">A passionate Frontend Web Developer who pays great attention to details.
+               I'm a fast learner and i can quickly adapt to new technology with ease. 
+            </p>
+            <p>I'm able to develop well structured web applications and seamlessly convert UI/UX designs into pixel
+                perfect responsive web pages.
+            </p>
+        </div>
+        <div class="btn_container">
+            <button class="hire_me">
+                <a href="mailto:mbahsamson402@gmail.com">Hire Me</a>    
+            </button>
+            <button class="resume"> 
+                <a href="resume/Mbah Samson .pdf" download="">Resume
+                    <img class="download_icon" src="img/download_icon.svg" alt="" width="15px">
+                </a>
+            </button>
+          </div>
+        <div class="media_pic_cnt">
+            <img class="media_pic" src="img/social_profile.svg" alt="social_media">
+           <div class="media_icon">
+                <div class="twitter">
+                    <a class="icon_url" href="https://twitter.com/mbahScript?s=09"><img class="twitter_icon" src="img/twitter.svg" alt="twitter icon" width="25px">Twitter</a>
+                    <stan class="icon_txt">Contact</stan>
+                </div>
+                <div class="linkedln">
+                    <a class="icon_url" href="https://github.com/mbahScript"><img class="github_icon" src="img/github.svg" alt="github icon" width="25px">Github</a>
+                    <stan class="icon_txt">View Projects</stan>
+                </div>
+                <div class="github">
+                    <a class="icon_url" href="https://www.linkedin.com/in/mbah-samson-28607a245"><img class="linkedin_icon" src="img/linkedin.svg" alt="linkedin icon" width="25px">Linkedln</a>
+                    <stan class="icon_txt">View Profile</stan>
+                </div>
+                <div class="behance">
+                    <a class="behance_url" href="https://www.behance.net/a0d0b2da"><img class="behance_icon" src="img/behance.svg" alt="behance icon" width="21px">Behance</a>
+                    <stan class="behance_icon_txt">Collections</stan>
+                </div>
+           </div>
+
+           <div class="about_me" id="about">
+            <h3 class="about_me_head">Specialist Creative</h3>
+            <p>An experienced Frontend Web Developer with a background knowledge on UI/UX Designs.</p>
+            <a class="more_about_me_btn" href="#">More about me</a>
+       </div>
+       </div>
+        <div class="services">
+            <div class="services_pic_cnt"><img class="services_pic" src="img/Services Design.svg" alt=""></div>
+            <div class="services_msg">
+                <h3 class="services_hd">My Awesome</h3>
+                <p class="services_p">Services</p>
+                <p>I'm able to develop well structured web applications and seamlessly convert UI/UX designs into pixel
+                    perfect responsive web pages.
+                </p>
+                <button class="cv"> <a href="resume/Mbah Samson .pdf" download="">Download CV</a></button>
+            </div>
+        </div>
+       <div class="creative_works" id="works">
+            <h3 class="creative_works_head">All Creative Works</h3>
+            <p>Here are few projects, pitch work and design exploration.</p>
+       </div>
+       <div class="projects">
+            <div class="first_project">
+                <img class="first_project_img" src="img/product_preview.jpg" alt="" width="95%">
+                <h4>Product Preview Card Component</h4>
+                <p>Web Development</p>
+                <div class="btn_cnt">
+                    <button class="source_btn"><a href="https://github.com/mbahScript/Product-Preview-Page"><img class="link_icon" src="img/link_external_icon.svg" alt="">Source</a></button>
+                    <button class="live_btn"><a href="https://product-page-preview.vercel.app/">Demo</a></button>
+                 </div>
+            </div>
+            <div class="second_project">
+                 <img class="second_project_img" src="img/news_homepage.jpg" alt="" width="95%">
+                 <h4>News Homepage</h4>
+                 <p>Web Development</p>
+                 <div class="btn_cnt">
+                    <button class="source_btn"><a href="https://github.com/mbahScript/News-Homepage"><img class="link_icon" src="img/link_external_icon.svg" alt="">Source</a></button>
+                    <button class="live_btn"><a href="https://news-homepage-self-six.vercel.app/">Demo</a></button>
+                 </div>
+            </div>
+            <div class="third_project">
+                 <img class="third_project_img" src="img/coming_soon.gif" alt="" width="95%">
+                 <h4>Coming Soon</h4>
+                 <p>Currently in development stage</p>
+            </div>
+       </div>
+       <div class="more_project"><a class="more_projects_btn" href="#">More Stuffs</a></div>
+       <section>
+           <div class="skill_layout" id="skills">
+            <h3 class="skill_layout_hd">Expertise is a Creator of, <stan class="experience">Experience</stan></h3>
+            <p class="skill_layout_p">Web dev expertise explore what it takes to become an expert developer. it examines the perception of expertise in.</p>
+               <div class="skill_set">
+                   <div class="skill_logo_cnt"><img class="skill_logo" src="skill/html5-without-wordmark-color.svg" alt="" width="50px"><span class="logo_txt">HTML 5</span></div>
+                   <div class="skill_logo_cnt"><img class="skill_logo" src="skill/css-3-seeklogo.com.svg" alt="" width="40px"><span class="logo_txt">CSS 3</span></div>
+                   <div class="skill_logo_cnt"><img class="skill_logo" src="skill/javascript-js-seeklogo.com.svg" alt="" width="45px"><span class="logo_txt">JAVASCRIPT</span></div>
+                   <div class="skill_logo_cnt"><img class="skill_logo" src="skill/responsive.svg" alt="" width="50px"><span class="logo_txt">RESPONSIVE WEB DESIGN</span></div>
+                   <div class="skill_logo_cnt"><img class="skill_logo" src="skill/adobe-illustrator-cc-seeklogo.com.svg" alt="" width="45px"><span class="logo_txt">ADOBE ILLUSTRATOR</span></div>
+                   <div class="skill_logo_cnt"><img class="skill_logo" src="skill/adobe-photoshop-cc-seeklogo.com.svg" alt="" width="45px"><span class="logo_txt">PHOTOSHOP</span></div>
+                   <div class="skill_logo_cnt"><img class="skill_logo" src="skill/adobe-xd-seeklogo.com.svg" alt="" width="45px"><span class="logo_txt">ADOBE XD</span></div>
+                   <div class="skill_logo_cnt"><img class="skill_logo" src="skill/sass-seeklogo.com.svg" alt="" width="45px"><span class="logo_txt">SASS</span></div>
+               </div>
+           </div>
+       </section>
+       
+           <div class ="footer">
+               <div class="footer_container">
+                   <img class="footer_pic" src="img/Samson.jpg" alt="self_img">
+                   <h4 class="footer_head"><img class="circle_svg" src="img/circle.svg" alt="circle svg" width="11px">
+                    Available for Project</h4>
+                   <a class="footer_btn" href="mailto:mbahsamson402@gmail.com">Hire Me</a>
+               </div>
+               <hr>
+               <h3 id="reach_me">Reach Me</h3>
+               <div class="connect">
+                    <div><a href="https://twitter.com/mbahScript?s=09"><img class="dark_svg" src="/img/twitter_dark.svg" alt="twitter_icon" width="35px"></a></div>
+                    <div><a href="https://www.linkedin.com/in/mbah-samson-28607a245"><img class="dark_svg" src="/img/linkedin_dark.svg" alt="linkedin_icon" width="35px"></a></div>
+                    <div><a href="mailto:mbahsamson402@gmail.com"><img class="dark_svg" src="/img/google_mail_icon.svg" alt="mail_icon" width="35px"></a></div>
+                    <div><a href="https://github.com/mbahScript"><img class="dark_svg" src="/img/github_dark.svg" alt="github_icon" width="35px"></a></div>
+                    <div><a href="https://www.behance.net/a0d0b2da"><img class="dark_svg" src="/img/behance_dark.svg" alt="behance_icon" width="35px"></a></div> 
+               </div>
+               <div class="footer_links_cnt">
+                    <div class="group1"><a class="footer_links" href="#">Home</a></div>
+                    <div class="group2"><a class="footer_links" href="#skills">Skills</a></div>
+                    <div class="group3"><a class="footer_links" href="#works">Work</a></div>
+                    <div class="group4"><a class="footer_links" href="#about">About</a></div>
+                </div>
+               <stan class="copyright">Copyright <img class="copyright_icon" src="img/copyright.svg" alt="copyright" width="16px"> 2022</stan>
+               <p class="attribute">Designed by <a href="https://twitter.com/mbahScript?s=09">Mbah Samson Ifeanyi</a></p>
+           </div>
+    
+        </div>
+</body>
+</html>
