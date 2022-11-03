@@ -161,6 +161,27 @@ html{
 }
 .resume a{
     text-decoration: none;
+    color: var(--neutral);
+}
+.resume_mob{
+    cursor: pointer;
+    margin-top: 5px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    border: 0px solid;
+    font-weight: bold;
+    color: var(--button-color);
+    background: var(--neutral);
+    animation: wiggle 4s linear infinite;
+}
+.resume_mob:hover{
+    color: var(--neutral);
+    border-radius: 4px;
+    background: var(--primary-color);
+    transition: 0.5s;
+}
+.resume_mob a{
+    text-decoration: none;
     color: var(--button-color);
 }
 .media_pic_cnt{
